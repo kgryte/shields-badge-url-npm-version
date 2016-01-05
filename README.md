@@ -106,6 +106,13 @@ Options:
 ### Examples
 
 ``` bash
+$ shields-npmv dstructs-matrix
+# => {"image":"https://img.shields.io/npm/v/dstructs-matrix.svg?style=flat","url":"https://npmjs.com/package/dstructs-matrix"}
+```
+
+or using `options`
+
+``` bash
 $ shields-npmv --package=dstructs-matrix
 # => {"image":"https://img.shields.io/npm/v/dstructs-matrix.svg?style=flat","url":"https://npmjs.com/package/dstructs-matrix"}
 ```

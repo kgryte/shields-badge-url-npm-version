@@ -46,7 +46,7 @@ The `function` accepts the following `options`:
 
 ``` javascript
 var list = require( 'npm-list-author-packages' );
-var urls = require( 'shields-badge-ur-npm-version' );
+var urls = require( 'shields-badge-url-npm-version' );
 
 // Generate badge URLs for all of an author's packages...
 list( {'username': 'kgryte'}, onList );

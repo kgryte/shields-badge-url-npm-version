@@ -193,5 +193,5 @@ Copyright &copy; 2016. Athan Reines.
 [tape]: https://github.com/substack/tape
 [istanbul]: https://github.com/gotwarlost/istanbul
 [testling]: https://ci.testling.com
-[npm]: https://npm.com
+[npm]: https://npmjs.com
 [shields]: http://shields.io/

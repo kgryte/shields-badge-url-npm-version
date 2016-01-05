@@ -1,0 +1,11 @@
+
+Usage: shields-npmv --package=<name> [options]
+
+Options:
+
+  -h,  --help                Print this message.
+  -V,  --version             Print the package version.
+       --package name        Package name.
+       --style style         Badge style. Default: 'flat'.
+       --format format       Badge format. Default: 'svg'.
+

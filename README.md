@@ -53,7 +53,6 @@ list( {'username': 'kgryte'}, onList );
 
 function onList( error, list ) {
 	var badge;
-	var opts;
 	var i;
 	if ( error ) {
 		throw error;
@@ -61,9 +60,6 @@ function onList( error, list ) {
 	if ( !list.length ) {
 		return;
 	}
-	opts = {
-		'packages': list
-	};
 	for ( i = 0; i < list.length; i++ ) {
 		badge = urls({
 			'package': list[ i ]

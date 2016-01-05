@@ -91,7 +91,7 @@ $ npm install -g shields-badge-url-npm-version
 ### Usage
 
 ``` bash
-Usage: shields-npmv --package=<name> [options]
+Usage: shields-npmv (<package> | --package=<name>) [options]
 
 Options:
 

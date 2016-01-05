@@ -65,7 +65,11 @@ if ( args.version ) {
 
 opts = {};
 
-opts.package = args.package;
+if ( args._[ 0 ] ) {
+	opts.package = args._[ 0 ];
+} else {
+	opts.package = args.package;
+}
 if ( args.style ) {
 	opts.style = args.style;
 }

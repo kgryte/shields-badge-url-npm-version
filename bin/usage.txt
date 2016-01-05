@@ -1,5 +1,5 @@
 
-Usage: shields-npmv --package=<name> [options]
+Usage: shields-npmv (<package> | --package=<name>) [options]
 
 Options:
 
